@@ -13,18 +13,21 @@
     <!-- Tailwind cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            },
+            fontFamily: {
+              manrope: ['Manrope', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
 </head>
-<body class="overflow-x-hidden">
+<body class="overflow-x-hidden font-manrope">
 <!-- Main content -->
   <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
     <!-- header section -->
